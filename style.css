@@ -1,0 +1,39 @@
+/* ----- background ----- */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Source/font.png) no-repeat center fixed;
+    background-size: cover;
+}
+  
+.stars{
+    position: fixed;
+    margin-top: -136px;
+    margin-left: -430px;
+    z-index: -1;
+}
+
+.tep{
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.imo{
+    font-weight: bold;
+    font-size: 60px;
+    
+    color: rgb(175, 74, 179);
+}
+
+/* ----- misc ----- */
+
+button{
+    cursor: pointer;
+}
+
+
+body{
+    overflow: hidden;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-----------------------------------------HEADER & NAVBAR---------------------------->
+
+        <title>Immo Tep</title>
+    </head>
+    <body>
+        <img class="stars" src="Source/stars.png">
+            <nav class="navbar navbar-expand-md navbar-dark"  style="margin-top: 121px; margin-left: 55px;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><span class="imo">IMMO </span><span class="tep">TEP</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+                            <a class="nav-link" href="#">VENTE</a>
+                            <a class="nav-link" href="#">LOCATION</a>
+                            <a class="nav-link" href="#">ESTIMATION</a>
+                            <a class="nav-link" href="#">L'ÉQUIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        <!----------------------------------------- MAIN CONTENT---------------------------->
+
+        <div class="container">
+            <h1 class="display-5 pt-5 fw-bold text-light text-center">L'immobilier pour les nuls</h1>
+            <div class="col-lg-6  mx-auto">
+                <p class="lead mb-4 text-light text-center font-weight-bold" >Tous nos conseils pour réussir votre première acquisition dans un guide gratuit</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center" style="white-space:nowrap;">
+                    <button type="button" class="btn btn-dark btn-lg px-4 gap-3" style="background-color:rgb(181, 66, 185)">Téléchargez gratuitement le guide 2024</button>
+                    <button type="button" class="btn text-white btn-dark btn-lg px-4"  style="background-color:rgb(118, 54, 192)">Prendre rendez-vous</button>  
+                </div>
+            </div>
+
+        <!----------------------------------------- PICTURES COLUMNS---------------------------->
+
+            <div class="row" style = "margin-top: 20px;">
+                <div class="col-4 text-center mt-5">
+                    <img src="Source/1.png" class = "card-img-top" style = " width:150px; height:150px; border-radius: 100%;">
+                        <p class = "text-white">Une couverture géographique adapté à vos rechers, ainsi que le respect de vos attentes et de vos éxigences.</p>
+                </div>
+                
+                <div class="col-4 text-center mt-5">
+                        <img src="Source/3.png" class = "card-img-top" style = "width:150px; height:150px; border-radius: 100%;">
+                        <p class = "text-white">Prise de rendez-vous 7 jours sur 7 dans l'agence de votre choix.</p>
+                </div>
+
+                <div class="col-4 text-center mt-5">
+                    <img src="Source/2.png" class = "card-img-top" style = " width:150px; height:150px; border-radius: 100%;">
+                    <p class = "text-white">Opérations rapides, location et achat immobilier clé en main !</p>
+                </div>
+            </div>
+            <!--CONTAINER END-->
+        </div>
+
+          <!----------------------------------------persistent bottom button--------------------------------------------------- -->
+        <style> .styleOverridePersistent{position : fixed; bottom:30px; right: 40px; color:white; background-color: rgb(118, 54, 192);}
+                .styleOverridePersistent:hover{ background-color: rgb(172, 51, 241); color: white; }
+            .styleOverridePersistent:focus {outline: none ; box-shadow: none;}
+        </style>
+
+        <a href="#" class = "btn rounded-pill sm-none styleOverridePersistent" href="https://www.google.fr"">Contactez-nous !</a>
+
+    </main>
+        <!------->
+    </body>
+</html>
